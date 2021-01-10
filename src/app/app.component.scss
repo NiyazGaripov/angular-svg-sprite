@@ -1,0 +1,28 @@
+app-svg-icon {
+  width: 150px;
+  height: 150px;
+
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.github {
+  fill: black;
+
+  &:hover {
+    transform: rotate(360deg);
+  }
+}
+
+.apple {
+  &:hover {
+    fill: yellow;
+  }
+}
+
+.android {
+  fill: green;
+}
