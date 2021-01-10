@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-svg-icon',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./svg-icon.component.scss']
 })
 export class SvgIconComponent implements OnInit {
+
+  @Input() icon!: string;
 
   constructor() { }
 
