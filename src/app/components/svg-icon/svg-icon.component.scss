@@ -1,0 +1,15 @@
+:host {
+//  Fallback for IE
+  svg {
+    width: inherit;
+    height: inherit;
+
+    fill: currentColor;
+
+    opacity: inherit;
+  }
+
+  svg {
+    all: inherit;
+  }
+}
